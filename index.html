@@ -1,1 +1,44 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first website</title>
+</head>
+<body>
+    <header>
+        <h1>My  Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">about</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2>Welcome</h2>
+        <p>This is my first website</p>
+        <p>I am learning HTML and CSS.</p>
+        <ul>
+            <li>Web Programming</li>
+            <li>Database</li>
+            <li>Interface Design</li>
+            <li>AI</li>
+        </ul>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button onclick="sayHello()">click</button>
+        <p id="result"></p>
+    </main>
+    <aside>
+        <h3>News</h3>
+        <p>Laster updates here</p> 
+    </aside>
+    <footer>
+        <p>@copy; 2026 my website</p>  
+    </footer>   
+
+    <script>
+    function sayHello() {
+        let name = document.getElementById('name').value;
+        document.getElementById('result').innerText = 'Hello, ' + name + '!';
+        }    
+        </script>
+</body>
+</html>
