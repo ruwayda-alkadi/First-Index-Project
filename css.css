@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <style>
+        body {
+            background-color: gray;
+        }
+        <style>
+                <title>تطبيق على محاضرة CSS</title>
+    <link rel="stylesheet" href="style.css">
+    </style> 
+        body {
+            background-color: rgb(255, 244, 195);
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+    <header> {
+        background-color: rgb(100, 200, 150);
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .profile.image {
+        width: 120px;
+        height: 120px;
+        border: 5px double darksalmon;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    </style>
+
+    </head>
